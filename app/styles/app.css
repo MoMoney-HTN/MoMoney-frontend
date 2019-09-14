@@ -1,0 +1,24 @@
+.PageTitle {
+  font-family: sans-serif;
+  text-align: center;
+  color: #27362b;
+  font-size: 36px;
+}
+
+.SubTitle {
+  font-family: sans-serif;
+  text-align: center;
+  color: #616b64;
+  font-style: italic;
+  font-weight: lighter;
+  transform: translate(10px, -20px);
+  font-size: 18px;
+}
+
+.SignInButton {
+  color: #616b64;
+  width: 40vw;
+  height: 8vh;
+  border: none;
+  left: 50%;
+}
