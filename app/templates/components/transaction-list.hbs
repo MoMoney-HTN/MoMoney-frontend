@@ -1,0 +1,9 @@
+<h2>{{@title}}</h2>
+
+<ul>
+  {{#each @transactions as |transaction|}}
+    <li><button {{action "showTransaction" transaction}}>{{transaction}}</button></li>
+  {{/each}}
+</ul>
+
+{{yield}}
