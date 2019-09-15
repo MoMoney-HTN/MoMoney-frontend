@@ -1,13 +1,23 @@
-<table class="TransactionItem" align="center">
-    <tr>
-        <th>{{@vendor}}</th>
-        <th>{{@date}}</th>
-        <th>{{@total}}</th>
-    </tr>
-    <tr>
-        <th>{{@category}}</th>
-        <th>{{@description}}</th>
-    </tr>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.rawgit.com/mdehoog/Semantic-UI-Calendar/76959c6f7d33a527b49be76789e984a0a407350b/dist/calendar.min.css" rel="stylesheet" type="text/css" />
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+
+
+<table class="ui selectable celled table">
+    <thead>
+        <tr>
+            <th>{{@vendor}}</th>
+            <th>{{@date}}</th>
+            <th>{{@total}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>{{@category}}</th>
+            <th>{{@description}}</th>
+        </tr>
+    </tbody>
 </table>
 
 {{yield}}

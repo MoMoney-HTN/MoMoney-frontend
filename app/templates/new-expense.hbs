@@ -1,31 +1,54 @@
-<h1>New Expense</h1>
-<button type="button">Cancel</button>
-<button type="button">Save</button>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.rawgit.com/mdehoog/Semantic-UI-Calendar/76959c6f7d33a527b49be76789e984a0a407350b/dist/calendar.min.css" rel="stylesheet" type="text/css" />
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+<script src="https://cdn.rawgit.com/mdehoog/Semantic-UI-Calendar/76959c6f7d33a527b49be76789e984a0a407350b/dist/calendar.min.js"></script>
+
+<div class="d-flex justify-content-center">
+    <h1>New Expense</h1>
+    <button type="button">Cancel</button>
+    <button type="button">Save</button>
+</div>
 
 <div class="NewExpense">
-    <form>
-        Add a category
-        <input type="text" name="addACategory">
-        <br>
-
-        Date
-        <input type="date" name="date">
-        <br>
-
-        Add vendor
-        <input type="text" name="vendor">
-        <br>
-
-        Add description (optional)
-        <input type="text" name="description">
-        <br>
-
-        {{!-- TODO: Add Subtotal and Add Taxes --}}
-
-        Grand Total (CAD): 
-        <input type="number" name="grandTotal">
-        {{!-- <input  --}}
-    </form>
 </div>
+
+<div class="ui form">
+
+  <div class="field">
+    <label aria-label="Add category">
+        <input type="text" placeholder="Add category">
+    </label>
+  </div>
+
+    <div class="ui input left icon">
+        <i class="calendar icon"></i>
+        <input type="text" placeholder="Date">
+    </div>
+
+    <label aria-label="Add vendor">
+        <input type="text" placeholder="Add vendor">
+    </label>
+  
+
+  <label aria-label="Add description (optional)">
+        <input type="text" placeholder="Add description (optional)">
+    </label>
+ 
+
+    <div class="inline field">
+        <label aria-label="Input grand total in canadian dollars"> Grand Total (CAD): </label>
+        <input type="text" placeholder="$0.00">
+    </div>
+
+  {{!-- <div class="inline field">
+    <label>Last name</label>
+    <input type="text" placeholder="Full Name">
+  </div>
+</div> --}}
+
+</div>
+
 
 {{outlet}}
