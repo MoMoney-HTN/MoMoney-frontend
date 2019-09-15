@@ -1,0 +1,31 @@
+<h1>New Expense</h1>
+<button type="button">Cancel</button>
+<button type="button">Save</button>
+
+<div class="NewExpense">
+    <form>
+        Add a category
+        <input type="text" name="addACategory">
+        <br>
+
+        Date
+        <input type="date" name="date">
+        <br>
+
+        Add vendor
+        <input type="text" name="vendor">
+        <br>
+
+        Add description (optional)
+        <input type="text" name="description">
+        <br>
+
+        {{!-- TODO: Add Subtotal and Add Taxes --}}
+
+        Grand Total (CAD): 
+        <input type="number" name="grandTotal">
+        {{!-- <input  --}}
+    </form>
+</div>
+
+{{outlet}}

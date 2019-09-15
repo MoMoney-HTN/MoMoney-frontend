@@ -7,7 +7,10 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.route('transactions');
+  this.route('index', { path: '' });
+  this.route('welcome', { path: '/welcome' });
+  this.route('new-expense');
+  this.route('transaction-screen');
 });
 
 export default Router;

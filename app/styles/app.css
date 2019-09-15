@@ -1,8 +1,11 @@
+* {
+    text-align: center;
+}
 .PageTitle {
   font-family: sans-serif;
   text-align: center;
   color: #27362b;
-  font-size: 36px;
+  font-size: 50px;
 }
 
 .SubTitle {
@@ -16,9 +19,45 @@
 }
 
 .SignInButton {
-  color: #616b64;
+  color: white;
   width: 40vw;
   height: 8vh;
   border: none;
   left: 50%;
+  background-color: #0f83dd; 
+  font-size: 20px;
+  margin-top: 30px; 
+}
+
+.Welcome {
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.WelcomeSubtitle {
+  font-family: sans-serif;
+  text-align: center;
+  color: #616b64;
+  font-weight: lighter;
+  transform: translate(10px, -20px);
+  font-size: 18px;
+}
+
+.GetStarted { 
+  color: white;
+  width: 40vw;
+  height: 8vh;
+  border: none;
+  left: 50%;
+  background-color: #0f83dd; 
+  font-size: 20px;
+  margin-top: 30px; 
+}
+
+.TransactionItem {
+  font-size: 30px;
+
 }
