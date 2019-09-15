@@ -1,4 +1,4 @@
-## HOW TO RUN LOCALLY  
+## HOW TO RUN LOCALLY (ON MAC)
 
 1. Install npm (included with nvm) [Instructions](https://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/)  
 
@@ -12,6 +12,12 @@
 
 6. Open `http://localhost:4200` in Chrome to see the website
   
+## Wireframes and UML
+
+![Wireframes](./public/assets/images/WIreframes.png)
+![UML](./public/assets/images/UML.png)
+
+
 ## Further Reading / Useful Links
 
 * [ember.js](https://emberjs.com/)
