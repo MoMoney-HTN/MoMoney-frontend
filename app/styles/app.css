@@ -1,14 +1,14 @@
 /* * {
     text-align: center;
 } */
-.PageTitle {
+.pageTitle {
   font-family: sans-serif;
   text-align: center;
   color: #27362b;
   font-size: 50px;
 }
 
-.SubTitle {
+.subTitle {
   font-family: sans-serif;
   text-align: center;
   color: #616b64;
@@ -18,7 +18,7 @@
   font-size: 18px;
 }
 
-.SignInButton {
+.signInButton {
   color: white;
   width: 40vw;
   height: 8vh;
@@ -29,7 +29,7 @@
   margin-top: 30px; 
 }
 
-.Welcome {
+.welcome {
   font-family: sans-serif;
   text-align: center;
   color: black;
@@ -37,7 +37,7 @@
   font-size: 50px;
 }
 
-.WelcomeSubtitle {
+.welcomeSubtitle {
   font-family: sans-serif;
   text-align: center;
   color: #616b64;
@@ -46,7 +46,7 @@
   font-size: 18px;
 }
 
-.GetStarted { 
+.getStarted { 
   color: white;
   width: 40vw;
   height: 8vh;
@@ -57,7 +57,7 @@
   margin-top: 30px; 
 }
 
-.TransactionItem {
+.transactionItem{
   font-size: 30px;
 }
 

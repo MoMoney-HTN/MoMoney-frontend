@@ -1,53 +1,17 @@
-# momoney-htn2019
+## HOW TO RUN LOCALLY  
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+1. Install npm (included with nvm) [Instructions](https://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/)  
 
-## Prerequisites
+2. Install Ember `npm install -g ember-cli`
 
-You will need the following things properly installed on your computer.
+3. Clone this repo with `git clone`  
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+4. Go into project directory `cd momoney-htn2019`  
 
-## Installation
+5. Compile and launch the localhost server `ember server`  
 
-* `git clone <repository-url>` this repository
-* `cd momoney-htn2019`
-* `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
+6. Open `http://localhost:4200` in Chrome to see the website
+  
 ## Further Reading / Useful Links
 
 * [ember.js](https://emberjs.com/)
