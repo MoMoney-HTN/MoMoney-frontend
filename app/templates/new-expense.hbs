@@ -1,20 +1,21 @@
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" rel="stylesheet" type="text/css" />
-<link href="https://cdn.rawgit.com/mdehoog/Semantic-UI-Calendar/76959c6f7d33a527b49be76789e984a0a407350b/dist/calendar.min.css" rel="stylesheet" type="text/css" />
-<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
-<script src="https://cdn.rawgit.com/mdehoog/Semantic-UI-Calendar/76959c6f7d33a527b49be76789e984a0a407350b/dist/calendar.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<div class="d-flex justify-content-center">
-    <h1>New Expense</h1>
-    <button type="button">Cancel</button>
-    <button type="button">Save</button>
+<div class="container">
+  <div class="row">
+    <h1 class="col-8 ui header newExample">New Expense</h1>
+    <button class="col ui basic button" type="button">Cancel</button>
+    <button class="col ui green button" type="button">Save</button>
+  </div>
 </div>
 
-<div class="NewExpense">
-</div>
 
-<div class="ui form">
+{{!-- <h2 class="ui header">
+  <img src="/images/avatar2/large/patrick.png" class="ui circular image">
+  Patrick
+</h2> --}}
+
+{{!-- <div class="ui form">
 
   <div class="field">
     <label aria-label="Add category">
@@ -40,7 +41,7 @@
     <div class="inline field">
         <label aria-label="Input grand total in canadian dollars"> Grand Total (CAD): </label>
         <input type="text" placeholder="$0.00">
-    </div>
+    </div> --}}
 
   {{!-- <div class="inline field">
     <label>Last name</label>
@@ -48,7 +49,7 @@
   </div>
 </div> --}}
 
-</div>
+{{!-- </div> --}}
 
 
 {{outlet}}
